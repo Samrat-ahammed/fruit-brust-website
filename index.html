@@ -21,18 +21,6 @@
       href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <!-- 
-    <script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            backgroundImage: {
-              "hero-pattern": "url('./images/banner1.png')",
-            },
-          },
-        },
-      };
-    </script> -->
 
     <style>
       .lato-font {
@@ -44,7 +32,7 @@
     <header>
       <!-- navbar section -->
       <nav class="mt-5">
-        <div class="navbar bg-[#F85559] rounded-full px-5 py-10 justify-between">
+        <div class="navbar bg-[#F85559] rounded-full px-5 py-10 justify-between max-sm:bg-white">
           <div class="navbar-start flex-1 sm:flex">
             <div class="hidden lg:flex">
               <ul class="menu menu-horizontal px-1 text-white">
@@ -55,11 +43,11 @@
               </ul>
             </div>
           </div>
-          <div class="items-center gap-1 flex-1">
+          <div class="items-center gap-1 flex-1 max-sm:flex-auto">
             <div class="w-10 rounded-full">
               <img src="./images/logo.png" />
             </div>
-            <a class="btn btn-ghost normal-case text-xl text-white"
+            <a class="btn btn-ghost normal-case text-xl text-white max-sm:text-black"
               >Fruit Burst</a
             >
           </div>
@@ -94,16 +82,16 @@
               <li><a>All Fruits</a></li>
             </ul>
           </div>
-          <div class="relative text-gray-600">
+          <div class="relative text-gray-600 max-sm:hidden">
             <input
               type="search"
               name="q"
-              class="py-2 text-sm text-white rounded-full p-5 mr-5 focus:outline-none focus:bg-white focus:text-gray-900"
+              class="w-[400px] py-2 text-sm text-white rounded-full p-3 mr-5 focus:outline-none focus:bg-white focus:text-gray-900"
               placeholder="Search here"
               autocomplete="off"
             />
 
-            <span class=" inset-y-0 left-0 flex items-center -ml-16">
+            <span class="flex items-center -ml-16">
               <button
                 type="submit"
                 class="p-1 focus:outline-none focus:shadow-outline"
@@ -1091,7 +1079,7 @@
      </div>
       <div class="items-end text-right max-sm:text-center">
         <h4 class="text-2xl font-bold mb-5">Integrated Supplier</h4>
-        <hr class="w-28 mb-5">
+        <hr class="w-28 mb-5 ml-auto">
         <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
       </div>
     </div>
@@ -1106,7 +1094,7 @@
    </div>
     <div class="max-sm:text-center">
       <h4 class="text-2xl font-bold mb-5 ">Sustainable Practice</h4>
-      <hr class="w-28 mb-5">
+      <hr class="w-28 mb-5 ml-auto">
       <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
     </div>
   </div>
@@ -1124,7 +1112,7 @@
      </div>
       <div class="max-sm:text-center">
         <h4 class="text-2xl font-bold mb-5">The Benefits Only</h4>
-        <hr class="w-28 mb-5">
+        <hr class="w-28 mb-5 ml-auto">
         <p>Professional employees are there for you to pick <br> the most amazing and fresh fruits.</p>
       </div>
     </div>
